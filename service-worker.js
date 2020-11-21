@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TeaMateReact/precache-manifest.ed6a9dd54e7da9ea3953561d762fb70f.js"
+  "/TeaMateReact/precache-manifest.6a8463724ffd48e72f1c4f5e92a046ae.js"
 );
 
 workbox.clientsClaim();

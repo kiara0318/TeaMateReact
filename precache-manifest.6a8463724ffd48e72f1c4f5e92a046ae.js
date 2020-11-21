@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "8cbbf0c3f8aa507e6110",
-    "url": "/TeaMateReact/static/css/main.e6a3fdb7.chunk.css"
+    "revision": "b7ffd7f8cbc7c7b84a8a",
+    "url": "/TeaMateReact/static/css/main.ca1c36a2.chunk.css"
   },
   {
-    "revision": "8cbbf0c3f8aa507e6110",
-    "url": "/TeaMateReact/static/js/main.f0752a1e.chunk.js"
+    "revision": "b7ffd7f8cbc7c7b84a8a",
+    "url": "/TeaMateReact/static/js/main.d22ccc43.chunk.js"
   },
   {
     "revision": "676d7201d9aa494b95fa",
     "url": "/TeaMateReact/static/js/runtime~main.74e0834f.js"
   },
   {
-    "revision": "07d04033340b43e0d0c9",
-    "url": "/TeaMateReact/static/js/2.0a51c6a0.chunk.js"
+    "revision": "6d14a219f0698dff9a9c",
+    "url": "/TeaMateReact/static/js/2.80fcd0b7.chunk.js"
   },
   {
     "revision": "d32a9b02c6322f509ab5fc479409d5fc",
     "url": "/TeaMateReact/static/media/AvenirNext-Bold.d32a9b02.ttf"
   },
   {
-    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
-    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
+    "revision": "5e8d8aa679d32fa464cf8347672fb583",
+    "url": "/TeaMateReact/static/media/AvenirNext-DemiBold.5e8d8aa6.ttf"
   },
   {
     "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
     "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
   },
   {
-    "revision": "5e8d8aa679d32fa464cf8347672fb583",
-    "url": "/TeaMateReact/static/media/AvenirNext-DemiBold.5e8d8aa6.ttf"
+    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
+    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
   },
   {
     "revision": "3c041f665736d0f1040880ec0d0552f2",
@@ -49,7 +49,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "eeedcb3f1b6447026f11799e36d3744c",
-    "url": "/TeaMateReact/static/media/LoginScreen_elAca06b1e9c6a60d6091f38b5bc584bee_828553.eeedcb3f.jpg"
+    "url": "/TeaMateReact/static/media/TeaMateScreen_elAca06b1e9c6a60d6091f38b5bc584bee_828553.eeedcb3f.jpg"
+  },
+  {
+    "revision": "5471edaaac1796cc9647b83ef6d768a1",
+    "url": "/TeaMateReact/static/media/TeaMateScreen_elCup_68661.5471edaa.png"
   },
   {
     "revision": "904d9edc4c5d6217438977ed415f47d5",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/datasheet_listData1_row6_picture.c81fe985.png"
   },
   {
-    "revision": "0e3f6cee4001eb51537b549d180b9bc2",
+    "revision": "d90b66d73bc1861a8a88367d3a6f2ea2",
     "url": "/TeaMateReact/index.html"
   }
 ];
