@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b7ffd7f8cbc7c7b84a8a",
-    "url": "/TeaMateReact/static/css/main.ca1c36a2.chunk.css"
+    "revision": "1a03e85d7bddf986b816",
+    "url": "/TeaMateReact/static/css/main.938c6e0e.chunk.css"
   },
   {
-    "revision": "b7ffd7f8cbc7c7b84a8a",
-    "url": "/TeaMateReact/static/js/main.d22ccc43.chunk.js"
+    "revision": "1a03e85d7bddf986b816",
+    "url": "/TeaMateReact/static/js/main.913e72bf.chunk.js"
   },
   {
     "revision": "676d7201d9aa494b95fa",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "d32a9b02c6322f509ab5fc479409d5fc",
     "url": "/TeaMateReact/static/media/AvenirNext-Bold.d32a9b02.ttf"
-  },
-  {
-    "revision": "5e8d8aa679d32fa464cf8347672fb583",
-    "url": "/TeaMateReact/static/media/AvenirNext-DemiBold.5e8d8aa6.ttf"
   },
   {
     "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
@@ -84,7 +80,7 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/datasheet_listData1_row6_picture.c81fe985.png"
   },
   {
-    "revision": "d90b66d73bc1861a8a88367d3a6f2ea2",
+    "revision": "5c636cdc5edd59d166e8cd46309dd8cb",
     "url": "/TeaMateReact/index.html"
   }
 ];
