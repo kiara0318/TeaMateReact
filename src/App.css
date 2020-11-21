@@ -1,0 +1,1813 @@
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('fonts/AvenirNext-Bold.ttf');
+}
+
+.font-avenirNextBold {
+  font-family: 'AvenirNext-Bold', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: 'AvenirNext-Italic';
+  src: url('fonts/AvenirNext-Italic.ttf');
+}
+
+.font-avenirNextItalic {
+  font-family: 'AvenirNext-Italic', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: 'AvenirNext-DemiBold';
+  src: url('fonts/AvenirNext-DemiBold.ttf');
+}
+
+.font-avenirNextDemiBold {
+  font-family: 'AvenirNext-DemiBold', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('fonts/AvenirNext-Medium.ttf');
+}
+
+.font-avenirNextMedium {
+  font-family: 'AvenirNext-Medium', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('fonts/AvenirNext-Regular.ttf');
+}
+
+.font-avenirNextRegular {
+  font-family: 'AvenirNext-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+
+.App { /* Base font style */
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 15.1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: #f6f6f6;
+}
+
+.App .baseFont * { /* Base font style override for UI framework components */
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 15.1px;
+}
+
+.App .appBg {
+  background-color: #f6f6f6;
+}
+
+.App .cardBg {
+  background-color: white;
+}
+
+.App .baseTextBg { /* Base text color as background */
+  background-color: black;
+}
+
+.App .secondaryTextColor {
+  color: rgba(0, 0, 0, 0.5000);
+}
+
+.App .secondaryTextBg {
+  background-color: rgba(0, 0, 0, 0.5000);
+}
+
+.App .primaryTextColor {
+  color: #09498b;
+}
+
+.App .primaryBg {
+  background-color: #09498b;
+}
+
+.App .highlightTextColor {
+  color: #67c1d5;
+}
+
+.App .highlightBg {
+  background-color: #67c1d5;
+}
+
+@media (display-mode: standalone) {
+  .App {
+    user-select: none;
+  }
+}
+
+/* Styles to customize the UI framework plugin (MUI, https://muicss.com) */
+.mui-btn {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mui-btn--primary {
+    background-color: #09498b;
+}
+.mui-btn--primary:active, .mui-btn--primary:focus, .mui-btn--primary:hover {
+    background-color: #1f5e96;
+}
+.mui-btn--accent {
+    background-color: #67c1d5;
+}
+.mui-btn--accent:active, .mui-btn--accent:focus, .mui-btn--accent:hover {
+    background-color: #73c6d9;
+}
+.mui-textfield {  /* Reset UI framework styling that affects layout */
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.mui-checkbox, .mui-radio {  /* Reset UI framework styling that affects layout */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mui-select {  /* Reset UI framework styling that affects layout */
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.mui-btn+.mui-btn {  /* Reset UI framework styling that affects layout */
+    margin-left: 0;
+}
+.mui-btn--fab {  /* Reset UI framework styling that breaks compositing */
+    z-index: auto;
+}
+
+@keyframes fadeIn {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+@keyframes slideIn_right {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+@keyframes slideIn_bottom {
+    0%   { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+}
+
+/* System font classes */
+
+.App .systemFontRegular {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+.App .systemFontBold {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+.App .systemFontItalic {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  font-style: italic;
+}
+.App .systemFontBoldItalic {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* App-wide text styles specified in React Studio */
+
+.App .actionFont {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 19.4px;
+  font-weight: 400;
+}
+.App .actionFont * {
+  font-size: 19.4px;
+}
+.App .headlineFont {
+  font-family: 'AvenirNext-Medium', sans-serif;
+  font-size: 19.4px;
+  font-weight: 400;
+}
+.App .headlineFont * {
+  font-size: 19.4px;
+}
+.App .navBar {
+  background-color: #09498b;
+  color: #feffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  min-height: 60px;
+  font-family: 'AvenirNext-Medium', sans-serif;
+  font-size: 18px;
+}
+
+.App .navBar a {
+  color: #feffff;
+}
+
+.App .navBar .title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+}
+
+.App .navBar .backBtn {
+  position: absolute;
+  padding: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+.App .navBar > div {
+  margin-top: 12px;
+}
+
+@media (min-width: 568px) {
+  .App .navBar {
+    height: 60px;
+    min-height: 60px;
+  }
+  .App .navBar > div {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .App .navBar {
+    height: 60px;
+    min-height: 60px;
+  }
+  .App .navBar > div {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .App .navBar {
+    height: 60px;
+    min-height: 60px;
+  }
+  .App .navBar > div {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 320px) {
+  .mui-container {
+    max-width: 320px;
+  }
+}
+@media (min-width: 568px) {
+  .mui-container {
+    max-width: 568px;
+  }
+}
+@media (min-width: 768px) {
+  .mui-container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .mui-container {
+    max-width: 1024px;
+  }
+}
+
+.AppScreen {
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+
+.App .background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.App .layoutFlow {
+  position: relative;
+  width: 100%;
+  pointer-events: none;
+}
+.App .layoutFlow:before {  /* Prevent margin collapse */
+  content: "";
+  display: table;
+  clear: both;
+}
+.App .layoutFlow .flowRow {
+  position: relative;
+  width: 100%;
+}
+
+.App .screenFgContainer {
+  /* Items in the foreground group within a screen are placed with fixed positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.App .foreground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.App ul {
+  margin: 0;
+  padding: 0;
+}
+.App li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+.App .hasNestedComps {
+  position: relative;
+}
+.App .hasNestedComps:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.App .hasNestedComps .background {
+  position: absolute;
+}
+.App .hasNestedComps .layoutFlow {
+  position: relative;
+}
+.App .bottomAlignedContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.App .blockInputOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: auto;
+  z-index: 99999999;
+}
+
+.App .marker {
+  width: 0px;
+  height: 0px;
+}
+
+.App .drawer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.App .drawerOpen {
+  transform: translateX(0%);
+  transition: 0.3s;
+}
+
+.App .drawerClosedLeft {
+  transform: translateX(-100%);
+  transition: 0.3s;
+}
+
+.App .drawerClosedRight {
+  transform: translateX(100%);
+  transition: 0.3s;
+}
+
+.App .drawerContent {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App .drawerContent > * {
+  height: 100%;
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .background > .elBackgroundShape {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .DetailsScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .layoutFlow > .elPicture {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .DetailsScreen > .layoutFlow > .elPicture > * { 
+    width: 100%;
+  height: 240px;
+  }
+  
+@media (min-width: 568px) {
+  .DetailsScreen > .layoutFlow > .elPicture {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .DetailsScreen > .layoutFlow > .elPicture > * { 
+    width: 100%;
+  height: 240px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .layoutFlow > .elPicture {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .DetailsScreen > .layoutFlow > .elPicture > * { 
+    width: 100%;
+  height: 338px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .layoutFlow > .elPicture {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .DetailsScreen > .layoutFlow > .elPicture > * { 
+    width: 100%;
+  height: 406px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .layoutFlow > .elTitle {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 19px;
+    width: calc(100.0% - 51px);
+  }
+  .DetailsScreen > .layoutFlow > .elTitle > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .DetailsScreen > .layoutFlow > .elTitle {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 19px;
+    width: calc(100.0% - 51px);
+  }
+  .DetailsScreen > .layoutFlow > .elTitle > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .layoutFlow > .elTitle {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 19px;
+    width: calc(100.0% - 50px);
+  }
+  .DetailsScreen > .layoutFlow > .elTitle > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .layoutFlow > .elTitle {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 19px;
+    width: calc(100.0% - 50px);
+  }
+  .DetailsScreen > .layoutFlow > .elTitle > * { 
+    width: 100%;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .layoutFlow > .elLine {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 34px;
+    margin-right: 34px;
+    width: calc(100.0% - 68px);
+  }
+  .DetailsScreen > .layoutFlow > .elLine > * { 
+    width: 100%;
+  height: 2px;
+  }
+  
+@media (min-width: 568px) {
+  .DetailsScreen > .layoutFlow > .elLine {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 34px;
+    margin-right: 34px;
+    width: calc(100.0% - 68px);
+  }
+  .DetailsScreen > .layoutFlow > .elLine > * { 
+    width: 100%;
+  height: 1px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .layoutFlow > .elLine {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 34px;
+    margin-right: 34px;
+    width: calc(100.0% - 68px);
+  }
+  .DetailsScreen > .layoutFlow > .elLine > * { 
+    width: 100%;
+  height: 1px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .layoutFlow > .elLine {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 34px;
+    margin-right: 34px;
+    width: calc(100.0% - 68px);
+  }
+  .DetailsScreen > .layoutFlow > .elLine > * { 
+    width: 100%;
+  height: 1px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .layoutFlow > .elDescriptionText {
+    position: relative;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elDescriptionText > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .DetailsScreen > .layoutFlow > .elDescriptionText {
+    position: relative;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elDescriptionText > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .layoutFlow > .elDescriptionText {
+    position: relative;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elDescriptionText > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .layoutFlow > .elDescriptionText {
+    position: relative;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elDescriptionText > * { 
+    width: 100%;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .DetailsScreen > .layoutFlow > .elLongTextCopy {
+    position: relative;
+    margin-top: 26px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elLongTextCopy > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .DetailsScreen > .layoutFlow > .elLongTextCopy {
+    position: relative;
+    margin-top: 26px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elLongTextCopy > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .DetailsScreen > .layoutFlow > .elLongTextCopy {
+    position: relative;
+    margin-top: 26px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elLongTextCopy > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .DetailsScreen > .layoutFlow > .elLongTextCopy {
+    position: relative;
+    margin-top: 26px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100.0% - 63px);
+  }
+  .DetailsScreen > .layoutFlow > .elLongTextCopy > * { 
+    width: 100%;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .InfoScreen > .background > .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .InfoScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .InfoScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .InfoScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .InfoScreen > .layoutFlow > .elText {
+    position: relative;
+    margin-top: 106px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100.0% - 40px);
+  }
+  .InfoScreen > .layoutFlow > .elText > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .InfoScreen > .layoutFlow > .elText {
+    position: relative;
+    margin-top: 106px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100.0% - 40px);
+  }
+  .InfoScreen > .layoutFlow > .elText > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .InfoScreen > .layoutFlow > .elText {
+    position: relative;
+    margin-top: 105px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100.0% - 40px);
+  }
+  .InfoScreen > .layoutFlow > .elText > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .InfoScreen > .layoutFlow > .elText {
+    position: relative;
+    margin-top: 105px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100.0% - 40px);
+  }
+  .InfoScreen > .layoutFlow > .elText > * { 
+    width: 100%;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .InfoScreen > .layoutFlow > .elSpacer {
+    position: relative;
+    margin-top: 0px;
+    width: 10px;
+    margin-left: 0px;
+  }
+  .InfoScreen > .layoutFlow > .elSpacer > * { 
+  width: 10px;
+  height: 60px;
+  }
+  
+@media (min-width: 568px) {
+  .InfoScreen > .layoutFlow > .elSpacer {
+    position: relative;
+    margin-top: 0px;
+    width: 10px;
+    margin-left: 0px;
+  }
+  .InfoScreen > .layoutFlow > .elSpacer > * { 
+  width: 10px;
+  height: 60px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .InfoScreen > .layoutFlow > .elSpacer {
+    position: relative;
+    margin-top: 0px;
+    width: 10px;
+    margin-left: 0px;
+  }
+  .InfoScreen > .layoutFlow > .elSpacer > * { 
+  width: 10px;
+  height: 60px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .InfoScreen > .layoutFlow > .elSpacer {
+    position: relative;
+    margin-top: 0px;
+    width: 10px;
+    margin-left: 0px;
+  }
+  .InfoScreen > .layoutFlow > .elSpacer > * { 
+  width: 10px;
+  height: 60px;
+  }
+  
+}
+
+/* This component has a fixed-size layout */
+  .AdventuresTitle {
+    min-height: 209px;  /* This component has a fixed size */
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 453px */
+    height: 100%;
+  }
+  .AdventuresTitle > .background > .containerMinHeight {
+    min-height: 209px;
+  }
+
+
+  .AdventuresTitle > .foreground > .elHeaderImage {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 208px;
+  }
+
+
+  .AdventuresTitle > .foreground > .elHeaderText {
+    position: absolute;
+    right: calc(7.8% + 0px);
+    top: 55px;
+    width: 199px;
+    height: 115px;
+  }
+
+/* This component has a fixed-size layout */
+  .AdventureItem {
+    min-height: 137px;  /* Minimum height to ensure layout flow is visible */
+    width: 100%; /* This component was designed using a width of 274px */
+    height: 100%;
+  }
+  .AdventureItem > .background > .containerMinHeight {
+    min-height: 137px;
+  }
+
+
+  .AdventureItem > .background > .elClickableBg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 136px;
+  }
+
+
+  .AdventureItem > .layoutFlow > .elTitle {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 162px;
+    margin-right: 0px;
+    width: calc(100.0% - 162px);
+  }
+  .AdventureItem > .layoutFlow > .elTitle > * { 
+    width: 100%;
+  }
+  
+
+
+  .AdventureItem > .layoutFlow > .elShortDescription {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 162px;
+    margin-right: 17px;
+    width: calc(100.0% - 178px);
+  }
+  .AdventureItem > .layoutFlow > .elShortDescription > * { 
+    width: 100%;
+  }
+  
+
+
+  .AdventureItem > .foreground > .elPicture {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 144px;
+    height: 136px;
+  }
+
+.AdventureItem .elHotspot {
+  cursor: pointer;
+  border: 0.0px solid transparent;
+  border-radius: 2.3px;
+}
+
+
+
+  .AdventureItem > .foreground > .elHotspot {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 136px;
+  }
+
+/* This component has a fixed-size layout */
+  .AdventureFooter {
+    min-height: 137px;  /* This component has a fixed size */
+    overflow: hidden;
+    min-width: 274px; /* This component has a fixed size */
+  }
+  .AdventureFooter > .background > .containerMinHeight {
+    min-height: 137px;
+  }
+
+
+  .AdventureFooter > .background > .elClickableBg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+
+
+  .AdventureFooter > .foreground > .elShortDescription {
+    position: absolute;
+    left: 35px;
+    right: 40px;
+    top: 43px;
+    width: calc(100.0% - 35px - 40px);
+    height: 96px;
+  }
+
+
+  .AdventureFooter > .foreground > .elTitle {
+    position: absolute;
+    left: 35px;
+    right: 32px;
+    top: 14px;
+    width: calc(100.0% - 35px - 32px);
+    height: 51px;
+  }
+
+/* This component has a fixed-size layout */
+  .AdventureHeader {
+    min-height: 130px;  /* This component has a fixed size */
+    overflow: hidden;
+    min-width: 274px; /* This component has a fixed size */
+  }
+  .AdventureHeader > .background > .containerMinHeight {
+    min-height: 130px;
+  }
+
+
+  .AdventureHeader > .foreground > .elTitle {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    top: 11px;
+    width: calc(100.0% - 18px - 18px);
+    height: 27px;
+  }
+
+
+  .AdventureHeader > .foreground > .elText2 {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 84px;
+    width: calc(100.0% - 16px - 16px);
+    height: 58px;
+  }
+
+
+  .AdventureHeader > .foreground > .elText1 {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 42px;
+    width: calc(100.0% - 16px - 16px);
+    height: 58px;
+  }
+
+/* This component has a fixed-size layout */
+  .DrawerMenu {
+    min-height: 114px;  /* Minimum height to ensure layout flow is visible */
+    width: 182px; /* This component has a fixed size */
+  }
+  .DrawerMenu > .background > .containerMinHeight {
+    min-height: 114px;
+  }
+
+
+  .DrawerMenu > .background > .elBackgroundBlue {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+
+
+  .DrawerMenu > .background > .elBackgroundWhite {
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    width: 4px;
+    height: 100%;
+  }
+
+.DrawerMenu .elButton button {
+  cursor: pointer;
+  border: 0.0px solid transparent;
+  border-radius: 3.4px;
+}
+
+.DrawerMenu .elButton button:focus {
+  box-shadow: 0 0 5px rgba(0, 122, 242, 0.5000);
+  outline: none;
+}
+
+
+
+  .DrawerMenu > .layoutFlow > .elButton {
+    line-height: 35px;
+    position: relative;
+    margin-top: 40px;
+    width: 145px;
+    margin-left: 18px;
+  }
+  .DrawerMenu > .layoutFlow > .elButton > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
+
+
+/* Narrowest size for this element's responsive layout */
+  .AdventuresScreen > .background > .elBackgroundShape {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .AdventuresScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .AdventuresScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .AdventuresScreen > .background > .elBackgroundShape {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+.AdventuresScreen .elAdventuresHead {
+  overflow: hidden;
+}
+
+.AdventuresScreen .elAdventuresHead.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > * { 
+    width: 100%;
+  }
+  
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > .background > .containerMinHeight {
+    min-height: 209px;
+  }
+
+@media (min-width: 568px) {
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > * { 
+    width: 100%;
+  }
+  
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > .background > .containerMinHeight {
+    min-height: 209px;
+  }
+
+}
+@media (min-width: 768px) {
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > * { 
+    width: 100%;
+  }
+  
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > .background > .containerMinHeight {
+    min-height: 208px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > * { 
+    width: 100%;
+  }
+  
+  .AdventuresScreen > .layoutFlow > .elAdventuresHead > .background > .containerMinHeight {
+    min-height: 208px;
+  }
+
+}
+
+.AdventuresScreen > .layoutFlow > .elList > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 7px;
+  grid-row-gap: 7px;  /* old name still required by some browsers */
+  column-gap: 7px;
+  grid-column-gap: 7px;  /* old name still required by some browsers */
+}
+
+.AdventuresScreen > .layoutFlow > .elList > div > * {
+  display: inline-block;
+  position: relative;
+  min-width: 274px;
+}
+
+  @media (min-width: 1024px) {
+    .AdventuresScreen > .layoutFlow > .elList > div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 7px;
+      grid-row-gap: 7px;  /* old name still required by some browsers */
+      column-gap: 7px;
+      grid-column-gap: 7px;  /* old name still required by some browsers */
+    }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .AdventuresScreen > .layoutFlow > .elList > div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 7px;
+      grid-row-gap: 7px;  /* old name still required by some browsers */
+      column-gap: 7px;
+      grid-column-gap: 7px;  /* old name still required by some browsers */
+    }
+  
+  }
+  
+  @media (min-width: 568px) and (max-width: 767px) {
+    .AdventuresScreen > .layoutFlow > .elList > div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 7px;
+      grid-row-gap: 7px;  /* old name still required by some browsers */
+      column-gap: 7px;
+      grid-column-gap: 7px;  /* old name still required by some browsers */
+    }
+  
+  }
+  
+  @media (max-width: 567px) {
+    .AdventuresScreen > .layoutFlow > .elList > div {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 7px;
+      grid-row-gap: 7px;  /* old name still required by some browsers */
+      column-gap: 7px;
+      grid-column-gap: 7px;  /* old name still required by some browsers */
+    }
+  
+  }
+  
+
+
+/* Narrowest size for this element's responsive layout */
+  .AdventuresScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elList > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .AdventuresScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elList > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .AdventuresScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elList > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .AdventuresScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .AdventuresScreen > .layoutFlow > .elList > * { 
+    width: 100%;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .AdventuresScreen > .screenFgContainer > .foreground > .elTentIcon {
+    position: absolute;
+    left: calc(50.0% + 0px - 23px);
+    top: 14px;
+    width: 45px;
+    height: 27px;
+  }
+@media (min-width: 568px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elTentIcon {
+    left: calc(50.0% + 0px - 23px);
+    top: 14px;
+    width: 45px;
+    height: 27px;
+  }
+}
+@media (min-width: 768px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elTentIcon {
+    left: calc(50.0% + 0px - 22px);
+    top: 14px;
+    width: 45px;
+    height: 27px;
+  }
+}
+@media (min-width: 1024px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elTentIcon {
+    left: calc(50.0% + 0px - 22px);
+    top: 22px;
+    width: 45px;
+    height: 27px;
+  }
+}
+
+.AdventuresScreen .elIconButton {
+  cursor: pointer;
+  border: 0.0px solid transparent;
+  border-radius: 2.3px;
+}
+
+.AdventuresScreen .elIconButton:focus {
+  box-shadow: 0 0 5px rgba(254, 255, 255, 0.5000);
+  outline: none;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .AdventuresScreen > .screenFgContainer > .foreground > .elIconButton {
+    position: fixed;
+    right: 10px;
+    top: 13px;
+    width: 41px;
+    height: 32px;
+  }
+@media (min-width: 568px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elIconButton {
+    right: 10px;
+    top: 13px;
+    width: 41px;
+    height: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elIconButton {
+    right: 10px;
+    top: 13px;
+    width: 41px;
+    height: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .AdventuresScreen > .screenFgContainer > .foreground > .elIconButton {
+    right: 4px;
+    top: 22px;
+    width: 41px;
+    height: 32px;
+  }
+}
+
+.AdventuresScreen > .drawerMenu > .drawerContent {
+  right: 0px;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .background > .elAca06b1e9c6a60d6091f38b5bc584bee {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .LoginScreen > .background > .elAca06b1e9c6a60d6091f38b5bc584bee {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .LoginScreen > .background > .elAca06b1e9c6a60d6091f38b5bc584bee {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .background > .elAca06b1e9c6a60d6091f38b5bc584bee {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .elTentIcon {
+    position: relative;
+    margin-top: 48px;
+    width: 113px;
+    margin-left: calc(51.9% - 57px);
+  }
+  .LoginScreen > .layoutFlow > .elTentIcon > * { 
+  width: 113px;
+  height: 79px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .elTentIcon {
+    position: relative;
+    margin-top: 48px;
+    width: 113px;
+    margin-left: calc(52.1% - 57px);
+  }
+  .LoginScreen > .layoutFlow > .elTentIcon > * { 
+  width: 113px;
+  height: 79px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .elTentIcon {
+    position: relative;
+    margin-top: 48px;
+    width: 113px;
+    margin-left: calc(52.2% - 56px);
+  }
+  .LoginScreen > .layoutFlow > .elTentIcon > * { 
+  width: 113px;
+  height: 79px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .elTentIcon {
+    position: relative;
+    margin-top: 48px;
+    width: 113px;
+    margin-left: calc(52.2% - 56px);
+  }
+  .LoginScreen > .layoutFlow > .elTentIcon > * { 
+  width: 113px;
+  height: 79px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .elHeaderTitle {
+    position: relative;
+    margin-top: 22px;
+    width: 248px;
+    margin-left: calc(52.3% - 124px);
+  }
+  .LoginScreen > .layoutFlow > .elHeaderTitle > * { 
+  width: 248px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .elHeaderTitle {
+    position: relative;
+    margin-top: 22px;
+    width: 248px;
+    margin-left: calc(52.3% - 124px);
+  }
+  .LoginScreen > .layoutFlow > .elHeaderTitle > * { 
+  width: 248px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .elHeaderTitle {
+    position: relative;
+    margin-top: 22px;
+    width: 246px;
+    margin-left: calc(52.3% - 123px);
+  }
+  .LoginScreen > .layoutFlow > .elHeaderTitle > * { 
+  width: 246px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .elHeaderTitle {
+    position: relative;
+    margin-top: 22px;
+    width: 246px;
+    margin-left: calc(52.3% - 123px);
+  }
+  .LoginScreen > .layoutFlow > .elHeaderTitle > * { 
+  width: 246px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .elUserNameField {
+    position: relative;
+    margin-top: 47px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elUserNameField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .elUserNameField {
+    position: relative;
+    margin-top: 47px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elUserNameField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .elUserNameField {
+    position: relative;
+    margin-top: 47px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elUserNameField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .elUserNameField {
+    position: relative;
+    margin-top: 47px;
+    margin-left: 29.4%;
+    margin-right: 26.6%;
+    width: calc(44.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elUserNameField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .elPasswordField {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elPasswordField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .elPasswordField {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elPasswordField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .elPasswordField {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elPasswordField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .elPasswordField {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 29.4%;
+    margin-right: 26.6%;
+    width: calc(44.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elPasswordField > * { 
+    width: 100%;
+  height: 38px;
+  }
+  
+}
+
+.LoginScreen .elButton button {
+  cursor: pointer;
+  border: 0.0px solid transparent;
+  border-radius: 3.4px;
+}
+
+.LoginScreen .elButton button:focus {
+  box-shadow: 0 0 5px rgba(4, 76, 139, 0.5000);
+  outline: none;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .elButton {
+    line-height: 48px;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elButton > * { 
+    width: 100%;
+  height: 48px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .elButton {
+    line-height: 48px;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elButton > * { 
+    width: 100%;
+  height: 48px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .elButton {
+    line-height: 48px;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 16.0%;
+    margin-right: 16.0%;
+    width: calc(68.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elButton > * { 
+    width: 100%;
+  height: 48px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .elButton {
+    line-height: 48px;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 29.4%;
+    margin-right: 26.6%;
+    width: calc(44.0% - 0px);
+  }
+  .LoginScreen > .layoutFlow > .elButton > * { 
+    width: 100%;
+  height: 48px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic {
+    position: absolute;
+    left: 158px;
+    top: 262px;
+    width: 3px;
+    height: 3px;
+  }
+@media (min-width: 568px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic {
+    left: 158px;
+    top: 262px;
+    width: 3px;
+    height: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic {
+    left: 158px;
+    top: 261px;
+    width: 3px;
+    height: 3px;
+  }
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic {
+    left: 158px;
+    top: 261px;
+    width: 3px;
+    height: 3px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic2 {
+    position: absolute;
+    left: 158px;
+    top: 262px;
+    width: 3px;
+    height: 3px;
+  }
+@media (min-width: 568px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic2 {
+    left: 158px;
+    top: 262px;
+    width: 3px;
+    height: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic2 {
+    left: 158px;
+    top: 261px;
+    width: 3px;
+    height: 3px;
+  }
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .screenFgContainer > .foreground > .elGraphic2 {
+    left: 158px;
+    top: 261px;
+    width: 3px;
+    height: 3px;
+  }
+}
+
