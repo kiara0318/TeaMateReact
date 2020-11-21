@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/js/2.0a51c6a0.chunk.js"
   },
   {
-    "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
-    "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
-  },
-  {
     "revision": "d32a9b02c6322f509ab5fc479409d5fc",
     "url": "/TeaMateReact/static/media/AvenirNext-Bold.d32a9b02.ttf"
   },
   {
-    "revision": "5e8d8aa679d32fa464cf8347672fb583",
-    "url": "/TeaMateReact/static/media/AvenirNext-DemiBold.5e8d8aa6.ttf"
-  },
-  {
     "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
     "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
+  },
+  {
+    "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
+    "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
+  },
+  {
+    "revision": "5e8d8aa679d32fa464cf8347672fb583",
+    "url": "/TeaMateReact/static/media/AvenirNext-DemiBold.5e8d8aa6.ttf"
   },
   {
     "revision": "3c041f665736d0f1040880ec0d0552f2",
