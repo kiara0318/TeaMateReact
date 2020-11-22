@@ -1,19 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "ea6ec54195446021a859",
-    "url": "/TeaMateReact/static/css/main.938c6e0e.chunk.css"
+    "revision": "419339e5f54024c185ed",
+    "url": "/TeaMateReact/static/css/main.5c7bc625.chunk.css"
   },
   {
-    "revision": "ea6ec54195446021a859",
-    "url": "/TeaMateReact/static/js/main.666f9114.chunk.js"
+    "revision": "419339e5f54024c185ed",
+    "url": "/TeaMateReact/static/js/main.a98a14f1.chunk.js"
   },
   {
     "revision": "676d7201d9aa494b95fa",
     "url": "/TeaMateReact/static/js/runtime~main.74e0834f.js"
   },
   {
-    "revision": "6d14a219f0698dff9a9c",
-    "url": "/TeaMateReact/static/js/2.80fcd0b7.chunk.js"
+    "revision": "4d7d4bd4ce37549ed13c",
+    "url": "/TeaMateReact/static/js/2.df277737.chunk.js"
+  },
+  {
+    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
+    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
+  },
+  {
+    "revision": "3c041f665736d0f1040880ec0d0552f2",
+    "url": "/TeaMateReact/static/media/AvenirNext-Regular.3c041f66.ttf"
   },
   {
     "revision": "d32a9b02c6322f509ab5fc479409d5fc",
@@ -24,12 +32,12 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
   },
   {
-    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
-    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
+    "revision": "eeedcb3f1b6447026f11799e36d3744c",
+    "url": "/TeaMateReact/static/media/TeaMateScreen_elAca06b1e9c6a60d6091f38b5bc584bee_828553.eeedcb3f.jpg"
   },
   {
-    "revision": "3c041f665736d0f1040880ec0d0552f2",
-    "url": "/TeaMateReact/static/media/AvenirNext-Regular.3c041f66.ttf"
+    "revision": "5471edaaac1796cc9647b83ef6d768a1",
+    "url": "/TeaMateReact/static/media/TeaMateScreen_elCup_68661.5471edaa.png"
   },
   {
     "revision": "fc079315cf46d3b561e8ae43dd7ada63",
@@ -42,14 +50,6 @@ self.__precacheManifest = [
   {
     "revision": "9fe468cd511d377fb722afba93165234",
     "url": "/TeaMateReact/static/media/AdventureItem_elPicture_333009.9fe468cd.jpg"
-  },
-  {
-    "revision": "eeedcb3f1b6447026f11799e36d3744c",
-    "url": "/TeaMateReact/static/media/TeaMateScreen_elAca06b1e9c6a60d6091f38b5bc584bee_828553.eeedcb3f.jpg"
-  },
-  {
-    "revision": "5471edaaac1796cc9647b83ef6d768a1",
-    "url": "/TeaMateReact/static/media/TeaMateScreen_elCup_68661.5471edaa.png"
   },
   {
     "revision": "904d9edc4c5d6217438977ed415f47d5",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/datasheet_listData1_row6_picture.c81fe985.png"
   },
   {
-    "revision": "8b90eaa3354c24d8827b1d326534b9f6",
+    "revision": "509ab0ce9b479353ee6a7c10c9a9d2c6",
     "url": "/TeaMateReact/index.html"
   }
 ];
