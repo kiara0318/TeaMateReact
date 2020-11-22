@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "419339e5f54024c185ed",
-    "url": "/TeaMateReact/static/css/main.5c7bc625.chunk.css"
+    "revision": "2fb16167e6a6fbcd9f41",
+    "url": "/TeaMateReact/static/css/main.e23c7a90.chunk.css"
   },
   {
-    "revision": "419339e5f54024c185ed",
-    "url": "/TeaMateReact/static/js/main.a98a14f1.chunk.js"
+    "revision": "2fb16167e6a6fbcd9f41",
+    "url": "/TeaMateReact/static/js/main.1717c23f.chunk.js"
   },
   {
     "revision": "676d7201d9aa494b95fa",
     "url": "/TeaMateReact/static/js/runtime~main.74e0834f.js"
   },
   {
-    "revision": "4d7d4bd4ce37549ed13c",
-    "url": "/TeaMateReact/static/js/2.df277737.chunk.js"
-  },
-  {
-    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
-    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
-  },
-  {
-    "revision": "3c041f665736d0f1040880ec0d0552f2",
-    "url": "/TeaMateReact/static/media/AvenirNext-Regular.3c041f66.ttf"
+    "revision": "de0daa3ff310cc5d49cc",
+    "url": "/TeaMateReact/static/js/2.b9a248dc.chunk.js"
   },
   {
     "revision": "d32a9b02c6322f509ab5fc479409d5fc",
     "url": "/TeaMateReact/static/media/AvenirNext-Bold.d32a9b02.ttf"
   },
   {
+    "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
+    "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
+  },
+  {
     "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
     "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
+  },
+  {
+    "revision": "3c041f665736d0f1040880ec0d0552f2",
+    "url": "/TeaMateReact/static/media/AvenirNext-Regular.3c041f66.ttf"
   },
   {
     "revision": "eeedcb3f1b6447026f11799e36d3744c",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/datasheet_listData1_row6_picture.c81fe985.png"
   },
   {
-    "revision": "509ab0ce9b479353ee6a7c10c9a9d2c6",
+    "revision": "7dac776c67cfd4cf005d4fc5e766879c",
     "url": "/TeaMateReact/index.html"
   }
 ];
