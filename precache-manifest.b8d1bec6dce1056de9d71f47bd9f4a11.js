@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "1735d9e69c8cf96aeb7c",
-    "url": "/TeaMateReact/static/css/main.d68ade57.chunk.css"
+    "revision": "91453940c5dc90da744c",
+    "url": "/TeaMateReact/static/css/main.9ffcc343.chunk.css"
   },
   {
-    "revision": "1735d9e69c8cf96aeb7c",
-    "url": "/TeaMateReact/static/js/main.aaab7101.chunk.js"
+    "revision": "91453940c5dc90da744c",
+    "url": "/TeaMateReact/static/js/main.2ac0b62e.chunk.js"
   },
   {
     "revision": "676d7201d9aa494b95fa",
     "url": "/TeaMateReact/static/js/runtime~main.74e0834f.js"
   },
   {
-    "revision": "dfae4532a61911ea05d8",
-    "url": "/TeaMateReact/static/js/2.de75e483.chunk.js"
-  },
-  {
-    "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
-    "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
+    "revision": "da89d985358be3c567fe",
+    "url": "/TeaMateReact/static/js/2.125df9f6.chunk.js"
   },
   {
     "revision": "c7d4eaa279bf8ae8fbf2b91c4d7e38a9",
     "url": "/TeaMateReact/static/media/AvenirNext-Medium.c7d4eaa2.ttf"
   },
   {
+    "revision": "b95dd7ed0d02c8e5c9d3af391dfb4b8d",
+    "url": "/TeaMateReact/static/media/AvenirNext-Italic.b95dd7ed.ttf"
+  },
+  {
     "revision": "3c041f665736d0f1040880ec0d0552f2",
     "url": "/TeaMateReact/static/media/AvenirNext-Regular.3c041f66.ttf"
   },
   {
-    "revision": "2ec297c855d1310b6fc2224a9dd2bace",
-    "url": "/TeaMateReact/static/media/Screen12_elImage3_1002894.2ec297c8.jpg"
+    "revision": "84e12568d23b4bf5cdd418eae56802d0",
+    "url": "/TeaMateReact/static/media/Screen12_elImage3_1002894.84e12568.jpg"
   },
   {
     "revision": "d2d3b7eb198c6835cb67cd4df8a092b3",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/TeaMateReact/static/media/datasheet_listData1_row6_picture.c81fe985.png"
   },
   {
-    "revision": "4adf900e05a13aec07458ad7a1d7e507",
+    "revision": "08add3bf2f0d47c35f791f5417d92e14",
     "url": "/TeaMateReact/index.html"
   }
 ];
